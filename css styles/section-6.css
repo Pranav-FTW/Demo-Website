@@ -1,0 +1,22 @@
+.section-6a, .section-6b {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.card1 {
+    margin-left: 70px;
+}
+.text-1 {
+    color: white;
+    font-size: 20px;
+}
+.text-2 {
+    color: gray;
+    margin-top: 5px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.feature-img {
+    width: 400px;
+    margin-top: 9px;
+}

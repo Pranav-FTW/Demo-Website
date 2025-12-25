@@ -1,0 +1,75 @@
+body {
+    background-color: black;
+}
+div {
+    font-family: Arial;
+}
+.nav {
+    display: flex;
+    justify-content: center;
+}
+a {
+    text-decoration: none;
+}
+.header {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    border: 1px solid ;
+    border-color: rgba(156, 243, 91, 0.1);
+    background-color: rgba(6, 7, 3, 0.4);
+    width: 700px;
+    height: 60px;
+    border-radius: 5px;
+    margin-top: 20px;
+    /* filter: blur(8px);
+    -webkit-filter: blur(8px); */
+}
+.left-section {
+    width: 120px;
+    justify-content: left;
+}
+.logo {
+    width:80px;
+    object-fit: cover;
+    margin-left: 19px;
+    cursor: pointer;
+}
+.middle-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    margin-left: 55px;
+}
+.navbar-names {
+    color: white;
+    font-size: 14px;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: text-decoration, text-decoration-color 0.9s;
+}
+.navbar-names:hover {
+    text-decoration: underline wavy;
+    text-decoration-color: rgb(156, 243, 91);
+}
+.right-section {
+    display: flex;
+    justify-content: right;
+    width: 100px;
+}
+.contact-btn {
+    font-size: 15px;
+    background-color: rgb(156, 243, 91);
+    border: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+.contact-btn:hover {
+    background-color: white;
+}

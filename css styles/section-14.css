@@ -1,0 +1,32 @@
+.section-14 {
+    margin-top: 20px;
+}
+.que-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.outer-div {
+    border: 1px solid;
+    border-color: rgba(156, 243, 91, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    height: 55px;
+    border-radius: 10px;
+}
+.que {
+    color: white;
+    margin-left: 25px;
+    font-size: 15px;
+}
+.plus-btn {
+    background-color: black;
+    color:  rgb(156, 243, 91);
+    border: none;
+    font-size: 25px;
+    font-weight: lighter;
+    margin-right: 25px;
+    cursor: pointer;
+}

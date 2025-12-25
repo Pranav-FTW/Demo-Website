@@ -1,0 +1,71 @@
+.section-4 {
+    display: flex;
+    justify-content: center;
+    width: full;
+    height: auto;
+    margin-top: 40px;
+}
+.card {
+    position: relative;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.main-image {
+    width: 250px;
+    height: 290px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.logo-img {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    width: 90px;
+}
+.text1 {
+    font-family: DM Serif Display, Roboto;
+    color: white;
+    position: absolute;
+    bottom: 60px;
+    left: 15px;
+    font-size: 40px;
+}
+.subtext2 {
+    font-family: DM Serif Display;
+    color: white;
+    position: absolute;
+    bottom: 45px;
+    left: 15px;
+}
+.download-btn {
+    position: absolute;
+    background-color: rgb(156, 243, 91);
+    width: 220px;
+    height: 30px;
+    left: 15px;
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border: none;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.4s
+    , background-color 0.9s;
+}
+.download-btn:hover {
+    background-color: white;
+}
+.download-img {
+    width: 13px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-left: 10px;
+}
+.card:hover .download-btn{
+    opacity: 1;
+}

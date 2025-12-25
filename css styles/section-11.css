@@ -1,0 +1,27 @@
+.section-11 {
+    margin-top: 30px;
+}
+.pricing {
+    color: rgb(156, 243, 91);
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    margin-top: 50px;
+    letter-spacing: 2px;
+}
+.plans {
+    font-family: DM Serif Display, Roboto;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 23px;
+    font-size: 45px;
+}
+.launch-plan {
+    font-family: DM Serif Display, Roboto;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 2px;
+    font-size: 45px;
+}

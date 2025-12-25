@@ -1,0 +1,27 @@
+.section-13 {
+    margin-top: 30px;
+}
+.faqs {
+    color: rgb(156, 243, 91);
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    margin-top: 50px;
+    letter-spacing: 2px;
+}
+.ans-faqs {
+    font-family: DM Serif Display, Roboto;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 23px;
+    font-size: 45px;
+}
+.qus-ai {
+    font-family: DM Serif Display, Roboto;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 2px;
+    font-size: 45px;
+}

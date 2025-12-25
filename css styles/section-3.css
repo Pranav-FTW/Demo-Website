@@ -1,0 +1,25 @@
+.section-3 {
+    margin-top: 50px;
+}
+.client {
+    color: rgb(156, 243, 91);
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+.first-small-text {
+    font-family: DM Serif Display, Roboto;
+    color: white;
+    margin-top: 18px;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+}
+.second-small-text {
+    font-family: DM Serif Display, Roboto;
+    color: white;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+}

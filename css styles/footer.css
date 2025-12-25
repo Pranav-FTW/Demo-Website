@@ -1,0 +1,65 @@
+.top-line {
+    width: 100%;
+    height: 1px;
+    background-color: rgba(156, 243, 91, 0.1);
+    margin-top: 80px;
+}
+.footer {
+    margin-top: 30px;
+}
+.footer-center {
+    display: flex;
+    justify-content: center;
+}
+.img-div {
+    display: flex;
+    justify-content: center;
+}
+.footer-logo {
+    width: 100px;
+    object-fit: cover;
+    margin-left: 19px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.footer-text1 {
+    font-family: DM Serif Display, Roboto;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+}
+.footer-text2 {
+    display: flex;
+    justify-content: center;
+    font-family: DM Serif Display, Roboto;
+    color: white;
+    font-size: 32px;
+}
+.last-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.tele-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(156, 243, 91);
+    color: black;
+    border: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    transition: background-color 0.4s;
+    cursor: pointer;
+    font-size: 15px;
+}
+.tele-btn:hover {
+    background-color: white;
+}
+.telegram-btn {
+    width: 16px;
+    margin-left: 10px;
+}

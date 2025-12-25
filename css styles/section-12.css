@@ -1,0 +1,80 @@
+.section-12 {
+    margin-top: 20px;
+}
+.center-pricing {
+    display: flex;
+    justify-content: center;
+}
+.pricing-card {
+    height: 420px;
+    border: 1px solid;
+    border-color: rgba(156, 243, 91, 0.1);
+    width: 350px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.plan-name {
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.plan-price {
+    font-size: 40px;
+    color: white;
+    margin-top: 14px;
+    margin-left: 17px;
+}
+.plan-stats {
+    color: gray;
+    font-size: 15.5px;
+    margin-top: 16px;
+    margin-left: 17px;
+    line-height: 22px;
+    margin-right: 10px;
+}
+.buy-btn {
+    color: black;
+    background-color: rgb(156, 243, 91);
+    margin-top: 20px;
+    width: 320px;
+    border: none;
+    height: 42px;
+    margin-left: 17px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.4s;
+}
+.buy-btn:hover {
+    background-color: white;
+}
+.buy-btn1 {
+    color: black;
+    background-color: White;
+    margin-top: 20px;
+    width: 320px;
+    border: none;
+    height: 42px;
+    margin-left: 17px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer; 
+    transition: background-color 0.4s;
+}
+.buy-btn1:hover {
+    background-color: rgb(156, 243, 91);
+}
+.plan-perks {
+    color: white;
+    font-size: 14px;
+    margin-top: 30px;
+    margin-left: 17px;
+    margin-bottom: 7px;
+}
+.perks {
+    color: gray;
+    padding-top: 8px;
+    font-size: 14px;
+    margin-left: 22px;
+}

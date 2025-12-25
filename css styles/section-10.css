@@ -1,0 +1,45 @@
+.section-10 {
+    margin-top: 20px;
+}
+.center-why-us {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.why-us-cards {
+    border: 1px solid;
+    border-color: rgba(156, 243, 91, 0.1);
+    width: 950px;
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9px;
+}
+.section-10-text1 {
+    color: rgb(156, 243, 91);
+    font-size: 10px;
+    margin-top: 50px;
+    letter-spacing: 2px;
+    margin-bottom: 16px;
+    margin-left: 30px;
+}
+.section-10-text2 {
+    color: white;
+    margin-left: 25px;
+    margin-bottom: 16px;
+    font-size: 40px;
+}
+.section-10-text3 {
+    color: gray;
+    font-size: 15px;
+    margin-left: 25px;
+    line-height: 22px;
+}
+.why-us-pic {
+    width: 470px;
+    height: 300px;
+    object-fit: cover;
+    margin-right: 30px;
+    border-radius: 5px;
+}
